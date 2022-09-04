@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/React-Frontend-Mentor/static/css/main.43fdb879.css",
-    "main.js": "/React-Frontend-Mentor/static/js/main.3058f422.js",
+    "main.js": "/React-Frontend-Mentor/static/js/main.aedfcec0.js",
     "static/media/illustration-thank-you.svg": "/React-Frontend-Mentor/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
     "index.html": "/React-Frontend-Mentor/index.html",
     "static/media/icon-star.svg": "/React-Frontend-Mentor/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
     "main.43fdb879.css.map": "/React-Frontend-Mentor/static/css/main.43fdb879.css.map",
-    "main.3058f422.js.map": "/React-Frontend-Mentor/static/js/main.3058f422.js.map"
+    "main.aedfcec0.js.map": "/React-Frontend-Mentor/static/js/main.aedfcec0.js.map"
   },
   "entrypoints": [
     "static/css/main.43fdb879.css",
-    "static/js/main.3058f422.js"
+    "static/js/main.aedfcec0.js"
   ]
 }
