@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Frontend-Mentor/static/css/main.43fdb879.css",
+    "main.js": "/React-Frontend-Mentor/static/js/main.d8a0cd54.js",
+    "static/media/illustration-thank-you.svg": "/React-Frontend-Mentor/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/React-Frontend-Mentor/index.html",
+    "static/media/icon-star.svg": "/React-Frontend-Mentor/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.43fdb879.css.map": "/React-Frontend-Mentor/static/css/main.43fdb879.css.map",
+    "main.d8a0cd54.js.map": "/React-Frontend-Mentor/static/js/main.d8a0cd54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43fdb879.css",
+    "static/js/main.d8a0cd54.js"
+  ]
+}
