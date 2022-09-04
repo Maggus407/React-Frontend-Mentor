@@ -1,6 +1,6 @@
 import RateCard from './components/RateCard';
 import SecondState from './components/SecondState';
-import {Routes, Switch, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import React from 'react';
 
 export default function App(){
