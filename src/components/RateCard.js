@@ -10,7 +10,6 @@ export default function RateCard(){
         setState(event.target)
         event.target.style.background = 'hsl(25, 97%, 53%)'
         obj['rate'] = event.target.innerText;
-        console.log(obj)
     }
 
     return(
