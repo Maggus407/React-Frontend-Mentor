@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Kanit:wght@200&family=Lobster&family=Manrope:wght@500;700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Pacifico&family=Red+Hat+Display:wght@500;700;900&family=Space+Grotesk:wght@500&display=swap');
+*, *::after, *::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Overpass';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+  }
+
+  .secondstate{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient( hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    border-radius: 20px;
+  }
+
+  .secondstate>img{
+    padding:2em;
+  }
+
+  .secondstate>div{
+    border-radius: 20px;
+    background: hsl(213, 19%, 18%);
+    padding:0.5em 1.3em 0.5em 1.3em;
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .secondstate>h1{
+    padding:1em 0 0.5em 0;
+  }
+
+  .secondstate>p{
+    text-align: center;
+    color:hsl(217, 12%, 63%);
+    padding: 0 1.3em 2em 1.3em;
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+

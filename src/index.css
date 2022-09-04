@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Kanit:wght@200&family=Lobster&family=Manrope:wght@500;700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Overpass:wght@400;700&family=Pacifico&family=Red+Hat+Display:wght@500;700;900&family=Space+Grotesk:wght@500&display=swap');
+*, *::after, *::before{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Overpass';
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +15,101 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.page{
+  width: 100%;
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+.rate-card{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; 
+  background: linear-gradient( hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  border-radius: 20px;
+}
+
+.rate-card>img{
+  padding: 2em 0 1em 0.7em;
+}
+
+.rate-card>p{
+  color:hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.t{
+  margin: 10px 25px 10px 25px;
+}
+
+h1{
+  font-size: 26px;
+}
+
+.rate-element{
+  width:85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate-element>*{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 12px;
+}
+
+.btn-submit{
+  background:hsl(25, 97%, 53%);
+  border: none;
+  width: 85%;
+  border-radius: 30px;
+  font-size: 0.9em;
+  color:white;
+  letter-spacing:2px;
+  margin-bottom: 2em;
+  font-weight: 700;
+}
+
+.btn-submit:hover, .rate-element:hover{
+  cursor: pointer;
+}
+
+.rate-element>*:hover{
+  background:hsl(216, 12%, 54%);
+}
+
+.btn-submit:hover{
+  background:white;
+}
+
+.btn-submit:hover a{
+  color:hsl(25, 97%, 53%);
+}
+
+a{
+  display:inline-block;
+  width: 100%;
+  padding:0.6em;
+  text-decoration: none;
+  color:white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
