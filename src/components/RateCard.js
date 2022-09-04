@@ -25,7 +25,7 @@ export default function RateCard(){
                 <p onClick={handleClick} style={{background: 'hsl(213, 19%, 18%)'}}>4</p>
                 <p onClick={handleClick} style={{background: 'hsl(213, 19%, 18%)'}}>5</p>
             </section>
-            <button type="button" className="btn-submit t"><Link to='/finished' id="link" style={{pointerEvents: 'none'}} state= {obj} >SUBMIT</Link></button>
+            <button type="button" className="btn-submit t"><Link to='/finished' id="link" style={{pointerEvents:'none'}} state= {obj} >SUBMIT</Link></button>
         </div>
     )
 }
