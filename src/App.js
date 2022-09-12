@@ -8,8 +8,8 @@ export default function App(){
     return(
         <div className="page">
         <Routes>
-                <Route path="/" element={<RateCard/>}/>
-                <Route path="/finished" element={<SecondState/>}/>
+            <Route path="/" element={<RateCard/>}/>
+            <Route path="/finished" element={<SecondState/>}/>
         </Routes>
         </div>
     )
